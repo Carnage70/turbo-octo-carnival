@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TareaFormulario1</title>
+</head>
+<body>
+    <h1>BILLING ADDRES - BLUE NILE</h1>
+    <br/>
+    <br/>
+    <form action="">
+        <h3><b>Would you like to create a Blue Nile Account and store this information?</b></h3>
+        <input type="radio" id="Yes" value="1">Yes
+        <input type="radio" id="No" value="2">No
+        <br/>
+        <br/>
+        <label for="Name">First Name</label>
+        <input type="text" id="Name" required placeholder="Enter your First Name" minlength="4" maxlength="10">
+        <br/>
+        <br/>
+        <label for="Last Name">Last Name</label>
+        <input type="text" id="Last Name" required placeholder="Enter your Last Name" minlength="4" maxlength="10">
+        <br/>
+        <br/>
+        <label for="Company">Company</label>
+        <input type="text" id="Company" required minlength="4" maxlength="15">
+        <br>
+        <br>
+        <label for="Number">*Phone</label>
+        <input type="number" id="Number" required minlength="0" maxlength="10"> Ext <input type="number" id="Number" minlength="1" maxlength="4">
+        <br>
+        <br>
+        <label for="Email">*Email</label>
+        <input type="email" id="Email" required>
+        <br>
+        <br>
+        <label for="Email">*Re-type E-mail</label>
+        <input type="email" id="Email" required>
+        <br>
+        <br>
+        <label for="Address">*Addres</label>
+        <input type="address" id="Address" required>
+        <br>
+        <input type="address" id="Address" required>
+        <br>
+        <br>
+        <label for="City">*City</label>
+        <input type="text" id="City" required>
+        <br>
+        <br>
+        <label for="">*State</label>
+        <br/>
+        <select id="State" required>
+            <option value="0">Select a State</option>
+            <option value="1">CA -- California</option>
+        </select>
+        <br>
+        <br>
+        <label for="Zip Code">*Zip Code</label>
+        <input type="code" id="Zip Code" required>
+        <br>
+        <br>
+        <label for="">*Country</label>
+        <br>
+        <select id="Country" required>
+            <option value="0">Select a Country</option>
+            <option value="1">United States</option>
+        </select>
+        <br>
+        <br>
+        <h4>*Address Type</h4>
+        <input type="radio" value="1" id="Home" required>Home
+        <input type="radio" id="Business" value="2" required>Business
+        <br>
+        <br>
+        <h3>Are you shipping this order to your billing addres?</h3>
+        <input type="radio" id="Yes" value="1">Yes
+        <input type="radio" id="No" value="2">No 
+    </form>
+   
+    
+</body>
+</html>
