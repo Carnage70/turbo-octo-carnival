@@ -1,0 +1,25 @@
+body{
+    background: #15AD30;
+    margin: 0;
+    padding: 0;
+}
+
+/* el signo de * afecta los estilos de toda la pagina
+body afecta los estilos del body*/
+
+/* *{
+    background:#15AD30
+    margin: 0;
+    padding: 0;
+} */
+
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.sec1{
+    background: url("./../IMG/89552458_3787416604631746_6906906177653702656_n.jpg"); /*Se utiliza para agregar una imagen de fondo de pantalla*/
+    background-repeat: no-repeat;
+}
