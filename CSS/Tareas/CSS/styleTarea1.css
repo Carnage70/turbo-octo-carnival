@@ -1,0 +1,36 @@
+h1{
+    color: red;
+}
+
+body{
+    background-color: greenyellow;
+}
+
+.Subtitulo{
+    color: orange;
+}
+
+.color {
+    color: coral;
+}
+
+.color2{
+    color: blue;
+}
+
+.color3{
+    color: blue;
+}
+
+.parrafo{
+    color: blue;
+}
+
+.tamañoletra{
+    font-size: 25px;
+}
+
+mark{
+    background-color: black;
+    color: white;
+}
