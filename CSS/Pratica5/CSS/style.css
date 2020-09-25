@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex > .columna > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flex > .columnareversa{
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.flex > .columnareversa > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexrow > .row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexrow > .rowreversa{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flexrow > .row >div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flexrow > .rowreversa > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#subtitulo{
+    text-align: center;
+}
+
+.justifycontent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.justifycontent > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flexstart{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.flexstart > div {
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
