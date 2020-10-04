@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.titulo > h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #5a005e;
+    text-transform: capitalize;
+    margin-top: 1%;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.cuadromorado{
+    width: 20%;
+    height: 20vh;
+    background: rgb(185, 46, 228);
+    border: 2px solid #000000;
+    margin-left: 1%;
+}
+
+.cuadromorado > .flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.cuadromorado > .flex-start > .cuadro1{
+    width: 52px;
+    height: 10vh;
+    background: rgb(211, 98, 53);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro2{
+    width: 52px;
+    height: 13vh;
+    background: rgb(211, 98, 53);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro3{
+    width: 52px;
+    height: 7vh;
+    background: rgb(211, 98, 53);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro4{
+    width: 52px;
+    height: 9vh;
+    background: rgb(211, 98, 53);
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.cuadromorado > .flex-end > .cuadro1{
+    width: 52px;
+    height: 10vh;
+    background: rgb(211, 98, 53);
+    margin: 23% 1%;
+    border: 2px solid #000000;
+    
+}
+
+.cuadromorado > .flex-end > .cuadro2{
+    width: 52px;
+    height: 13vh;
+    background: rgb(211, 98, 53);
+    margin: 23% 1%;
+    border: 2px solid #000000;
+    
+}
+
+.cuadromorado > .flex-end > .cuadro3{
+    width: 52px;
+    height: 7vh;
+    background: rgb(211, 98, 53);
+    margin: 23% 1%;
+    border: 2px solid #000000;
+    
+}
+
+.cuadromorado > .flex-end > .cuadro4{
+    width: 52px;
+    height: 9vh;
+    background: rgb(211, 98, 53);
+    margin: 23% 1%;
+    border: 2px solid #000000;
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.cuadromorado > .center{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.cuadromorado > .center > .cuadro1{
+    width: 52px;
+    height: 10vh;
+    background: rgb(211, 98, 53);
+    margin: 10% 1%;
+    border: 2px solid #000000;
+    
+}
+
+.cuadromorado > .center > .cuadro2{
+    width: 52px;
+    height: 13vh;
+    background: rgb(211, 98, 53);
+    margin: 10% 1%;
+    border: 2px solid #000000;
+    
+}
+
+.cuadromorado > .center > .cuadro3{
+    width: 52px;
+    height: 7vh;
+    background: rgb(211, 98, 53);
+    margin: 10% 1%;
+    border: 2px solid #000000;
+    
+}
+
+.cuadromorado > .center > .cuadro4{
+    width: 52px;
+    height: 9vh;
+    background: rgb(211, 98, 53);
+    margin: 10% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .stretch{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.cuadromorado > .stretch > .cuadro1{
+    width: 52px;
+    height: 18vh;    
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .stretch > .cuadro2{
+    width: 52px;
+    height: 18vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    
+}
+
+.cuadromorado > .stretch > .cuadro3{
+    width: 52px;
+    height: 18vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    
+}
+
+.cuadromorado > .stretch > .cuadro4{
+    width: 52px;
+    height: 18vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.centrarcuadro{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cuadromorado2{
+    width: 70%;
+    height: 20vh;
+    background: rgb(185, 46, 228);
+    border: 2px solid #000000;
+    margin-left: 1%;
+}
+
+.cuadromorado2 > .baseline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.cuadromorado2 > .baseline > .cuadro1{
+    width: 180px;
+    height: 13vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cuadromorado2 > .baseline > .cuadro2{
+    width: 180px;
+    height: 9vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cuadromorado2 > .baseline > .cuadro3{
+    width: 200px;
+    height: 13vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cuadromorado2 > .baseline > .cuadro4{
+    width: 180px;
+    height: 13vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    text-align: center;
+    font-size: 25px;
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.fila3 > .cuadromorado > .flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.fila3 > .cuadromorado > .flex-start > .cuadro1{
+    width: 70px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-start > .cuadro2{
+    width: 100px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-start > .cuadro3{
+    width: 50px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-start > .cuadro4{
+    width: 45px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-start > .cuadro5{
+    width: 45px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-start > .cuadro6{
+    width: 85px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-start > .cuadro7{
+    width: 40px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-start > .cuadro8{
+    width: 65px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-start > .cuadro9{
+    width: 70px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+.fila3 > .cuadromorado > .flex-end > .cuadro1{
+    width: 70px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 5% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-end > .cuadro2{
+    width: 100px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 5% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-end > .cuadro3{
+    width: 50px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 5% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-end > .cuadro4{
+    width: 45px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-end > .cuadro5{
+    width: 45px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-end > .cuadro6{
+    width: 85px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-end > .cuadro7{
+    width: 40px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-end > .cuadro8{
+    width: 65px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila3 > .cuadromorado > .flex-end > .cuadro9{
+    width: 70px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.fila4 > .cuadromorado > .center{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.fila4 > .cuadromorado > .center > .cuadro1{
+    width: 70px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila4 > .cuadromorado > .center > .cuadro2{
+    width: 100px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila4 > .cuadromorado > .center > .cuadro3{
+    width: 50px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila4 > .cuadromorado > .center > .cuadro4{
+    width: 45px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila4 > .cuadromorado > .center > .cuadro5{
+    width: 45px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila4 > .cuadromorado > .center > .cuadro6{
+    width: 85px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila4 > .cuadromorado > .center > .cuadro7{
+    width: 40px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila4 > .cuadromorado > .center > .cuadro8{
+    width: 65px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}
+
+.fila4 > .cuadromorado > .center > .cuadro9{
+    width: 70px;
+    height: 3vh;
+    background: rgb(211, 98, 53);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+}

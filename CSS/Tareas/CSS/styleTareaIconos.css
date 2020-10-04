@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: darkgray;
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+    font-family: 'Anton' , sans-serif , Arial;
+    margin-top: 5%;
+}
+
+.iconos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.iconos2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.instagram{
+    width: 10%;
+    height: 20vh;
+    background: rgb(174, 110, 206);
+}
+
+.twitter{
+    width: 10%;
+    height: 20vh;
+    background: deepskyblue;
+}
+
+.youtube{
+    width: 10%;
+    height: 20vh;
+    background: firebrick;
+}
+
+.pinterest{
+    width: 10%;
+    height: 20vh;
+    background: red;
+}
+
+.facebook{
+    width: 10%;
+    height: 20vh;
+    background: mediumblue;
+}
+
+.linkedin{
+    width: 10%;
+    height: 20vh;
+    background: lightskyblue;
+}
+
+a > .fa{
+    font-size: 120px;
+    padding: 0% 5%;
+    cursor: pointer;
+    color: white;
+    margin: 3% 5%;
+}

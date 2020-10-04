@@ -29,6 +29,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .flex > .columnareversa{
@@ -44,6 +46,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .flexrow{
@@ -71,6 +75,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .flexrow > .rowreversa > div{
@@ -81,6 +87,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 #subtitulo{
@@ -101,6 +109,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .flexstart{
@@ -117,4 +127,6 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
