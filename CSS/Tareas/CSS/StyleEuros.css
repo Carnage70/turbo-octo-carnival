@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fila{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.fila4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.cuadroverde{
+    width: 20%;
+    height: 20vh;
+    background: green;
+}
+
+.cuadronaranja{
+    width: 20%;
+    height: 20vh;
+    background: orange;
+}
+
+.cuadrorojo{
+    width: 20%;
+    height: 20vh;
+    background: red;
+}
+
+.cuadroazul{
+    width: 20%;
+    height: 20vh;
+    background: blue;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h2{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+}
+
+p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+
+.fondoverde{
+    width: 20%;
+    height: 2vh;
+    background: rgb(0, 97, 0);
+}
+
+.fondonaranja{
+    width: 20%;
+    height: 2vh;
+    background: rgb(219, 143, 0);
+}
+
+.fondorojo{
+    width: 20%;
+    height: 2vh;
+    background: rgb(207, 0, 0);
+}
+
+.fondoazul{
+    width: 20%;
+    height: 2vh;
+    background: rgb(0, 0, 218);
+}
+
+.informacion1{
+    width: 20%;
+    height: 50vh;
+    background: white;
+    border: 2px  solid rgb(0, 97, 0);
+}
+
+.informacion2{
+    width: 20%;
+    height: 50vh;
+    background: white;
+    border: 2px  solid rgb(219, 143, 0);
+}
+
+.informacion3{
+    width: 20%;
+    height: 50vh;
+    background: white;
+    border: 2px  solid rgb(207, 0, 0);
+}
+
+.informacion4{
+    width: 20%;
+    height: 50vh;
+    background: white;
+    border: 2px  solid rgb(0, 0, 218);
+}
